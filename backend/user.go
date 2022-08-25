@@ -5,5 +5,5 @@ import (
 )
 
 func User() {
-	fmt.Println("user")
+	fmt.Println("user2")
 }

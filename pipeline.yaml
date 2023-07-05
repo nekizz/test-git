@@ -28,8 +28,9 @@ jobs:
       - name: Build and test
         # Build và test image được build ra bằng Docker
         run: |
+          go build -o ./bin/go-test-service . 
           docker build -t go-test-service .
-          docker run go-test-service go run main.go
+          docker run go-test-service ./go-test-service
 
       - name: Push image to Docker Hub
         uses: docker/build-push-action@v2

@@ -60,5 +60,5 @@ jobs:
             docker stop go-test-service
             docker rm go-test-service
 
-            # Chạy container mới với image đã pull về bên trên
-            docker run -d -p 1323:1323 --name go-test-service ${{ secrets.DOCKERHUB_USERNAME }}/go-test-service:${{ github.sha }} go-test-service
+            # Chạy container mới với image đã pull về bên trên]
+            docker run -d -p 1323:1323 --name go-test-service ${{ secrets.DOCKERHUB_USERNAME }}/go-test-service:${{ github.sha }

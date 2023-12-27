@@ -1,4 +1,4 @@
-FROM golang:1.20
+FROM centos:7
 
 ADD ./bin/go-test-service /usr/bin/go-test-service
 

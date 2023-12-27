@@ -89,7 +89,7 @@ type State struct {
 }
 
 // Goodbye function for say goodbye
-type Goodbye struct {
+type Asoda struct {
 	Say uint
 	Bye uint
 }
@@ -98,4 +98,14 @@ type Goodbye struct {
 type Hello struct {
 	Say string
 	Bye string
+}
+
+type Hate struct {
+	Name string
+	Age  uint
+}
+
+type LoveHate struct {
+	Love uint
+	Hate uint
 }

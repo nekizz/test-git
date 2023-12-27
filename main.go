@@ -89,7 +89,7 @@ type State struct {
 }
 
 // Goodbye function for say goodbye
-type Goodbye struct {
+type Asoda struct {
 	Say uint
 	Bye uint
 }

@@ -99,8 +99,3 @@ type Hello struct {
 	Say string
 	Bye string
 }
-
-type Love struct {
-	Age    string
-	Gender uint
-}

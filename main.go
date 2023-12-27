@@ -93,3 +93,9 @@ type Goodbye struct {
 	Say uint
 	Bye uint
 }
+
+// Hello a function for say hello
+type Hello struct {
+	Say string
+	Bye string
+}

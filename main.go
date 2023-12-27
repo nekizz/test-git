@@ -104,3 +104,8 @@ type Hate struct {
 	Name string
 	Age  uint
 }
+
+type LoveHate struct {
+	Love uint
+	Hate uint
+}

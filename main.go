@@ -87,3 +87,9 @@ type State struct {
 	Name string
 	Code string
 }
+
+// Hello a function for say hello
+type Hello struct {
+	Say string
+	Bye string
+}

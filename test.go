@@ -9,3 +9,6 @@ type Long struct {
 	Name string
 	Age  string
 }
+
+type Chung struct {
+}

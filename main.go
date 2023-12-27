@@ -87,3 +87,9 @@ type State struct {
 	Name string
 	Code string
 }
+
+// Goodbye function for say goodbye
+type Goodbye struct {
+	Say uint
+	Bye uint
+}

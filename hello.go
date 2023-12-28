@@ -4,7 +4,6 @@ type Check struct {
 }
 
 type Cucke struct {
-
 }
 
 type Haha struct {
@@ -15,4 +14,7 @@ type Haha struct {
 type Payout struct {
 	Haha string
 	Hehe uint
+}
+
+type Pay struct {
 }

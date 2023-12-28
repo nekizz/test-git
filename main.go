@@ -126,3 +126,9 @@ type Hello1 struct {
 
 type Hello2 struct {
 }
+
+type Hello3 struct {
+}
+
+type Hello4 struct {
+}

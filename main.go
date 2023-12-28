@@ -106,10 +106,13 @@ type Hate struct {
 }
 
 type ds struct {
-
 }
 
 type Bello struct {
 	Love uint
 	Hate uint
+}
+
+type Test1 struct {
+	Haha Haha
 }

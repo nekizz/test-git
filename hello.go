@@ -3,7 +3,7 @@ package main
 type Check struct {
 }
 
-type Loha struct {
+type Cucke struct {
 	Kiki string
 	Kaka string
 }

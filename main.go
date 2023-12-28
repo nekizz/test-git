@@ -123,3 +123,6 @@ type Minh struct {
 
 type Hello1 struct {
 }
+
+type Hello2 struct {
+}

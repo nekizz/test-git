@@ -105,7 +105,11 @@ type Hate struct {
 	Age  uint
 }
 
-type Lolgsd struct {
+type ds struct {
+
+}
+
+type Bello struct {
 	Love uint
 	Hate uint
 }

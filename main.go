@@ -120,3 +120,6 @@ type Test1 struct {
 type Minh struct {
 	Hate Hate
 }
+
+type Hello2 struct {
+}

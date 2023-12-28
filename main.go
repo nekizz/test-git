@@ -113,6 +113,10 @@ type Bello struct {
 	Hate uint
 }
 
+type Test1 struct {
+	Haha Haha
+}
+
 type Minh struct {
 	Hate Hate
 }

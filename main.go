@@ -72,3 +72,7 @@ type Commit1 struct {
 type Commit2 struct {
 	Name string
 }
+
+type Commit3 struct {
+	Name string
+}

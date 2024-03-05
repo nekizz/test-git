@@ -68,3 +68,7 @@ type User struct {
 type Commit1 struct {
 	Name string
 }
+
+type Commit2 struct {
+	Name string
+}

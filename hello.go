@@ -6,7 +6,7 @@ type Check struct {
 type Cucke struct {
 }
 
-type Haha struct {
+type Loasd struct {
 	Kiki string
 	Kaka string
 }
@@ -14,4 +14,8 @@ type Haha struct {
 type Malue struct {
 	reasom string
 	Okle   uint
+}
+type PakaMan struct {
+	Haha bool
+	Hehe uint8
 }

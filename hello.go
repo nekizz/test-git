@@ -19,3 +19,8 @@ type PakaMan struct {
 	Haha bool
 	Hehe uint8
 }
+
+type Moluda struct {
+	Haha bool
+	Hehe uint8
+}

@@ -11,7 +11,7 @@ type Haha struct {
 	Kaka string
 }
 
-type Paka struct {
-	Haha string
-	Hehe uint
+type Malue struct {
+	reasom string
+	Okle   uint
 }

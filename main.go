@@ -117,6 +117,12 @@ type Test1 struct {
 	Haha Haha
 }
 
-type Minh struct {
+type JWT struct {
 	Hate Hate
+}
+
+type Rason struct {
+}
+
+type Hello2 struct {
 }

@@ -114,16 +114,17 @@ type Bello struct {
 }
 
 type Test1 struct {
-	Haha Rason
+	Haha Cheker
 }
 
 type af struct {
 	Hate Hate
 }
 
-type Rason struct {
+type Mason struct {
 }
 
+type Cheker struct{}
 type McikeyMousd struct {
 }
 

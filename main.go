@@ -21,13 +21,6 @@ func main() {
 		fmt.Println(err)
 	}
 
-	fmt.Println(user.ID, user.Address.ID)
-	user.Address.City = "HAHA"
-	err = db.Model(&User{}).Session(&gorm.Session{FullSaveAssociations: true}).Where("id = ?", 1).Updates(&user).Error
-	if err != nil {
-		fmt.Println(err)
-	}
-
 	UJson, _ := json.Marshal(user)
 
 	fmt.Println(string(UJson))
@@ -70,59 +63,12 @@ type User struct {
 	Budget        float64
 	Status        int
 	AddressID     uint
-	Address       *Address
 }
 
-type Address struct {
-	Model
-	Address  string
-	City     string
-	Postcode string
-	StateID  uint
-	State    State
-}
-
-type State struct {
-	Model
+type Commit1 struct {
 	Name string
-	Code string
 }
 
-// Goodbye function for say goodbye
-type Asoda struct {
-	Say uint
-	Bye uint
-}
-
-// Hello a function for say hello
-type Hello struct {
-	Say string
-	Bye string
-}
-
-type Hate struct {
+type Commit3 struct {
 	Name string
-	Age  uint
-}
-
-type ds struct {
-}
-
-type Bello struct {
-	Love uint
-	Hate uint
-}
-
-type Test1 struct {
-	Haha Mason
-}
-
-type JWT struct {
-	Hate Hate
-}
-
-type Mason struct {
-}
-
-type Cheker struct {
 }

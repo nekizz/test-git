@@ -7,15 +7,18 @@ type Cucke struct {
 }
 
 type Loasd struct {
-	Kiki string
+	qwe  string
 	Kaka string
 }
 
 type Malue struct {
 	reasom string
-	Okle   uint
+	qwe    uint
 }
-
+type PakaMan struct {
+	Haha int
+	Hehe uint8
+}
 type Reasonsdf struct {
 	Haha bool
 	Hehe string
@@ -23,5 +26,5 @@ type Reasonsdf struct {
 
 type Moluda struct {
 	Haha bool
-	Hehe interface{}
+	Hehe Loasd
 }

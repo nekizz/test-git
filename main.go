@@ -114,15 +114,15 @@ type Bello struct {
 }
 
 type Test1 struct {
-	Haha Haha
+	Haha Mason
 }
 
 type JWT struct {
 	Hate Hate
 }
 
-type Rason struct {
+type Mason struct {
 }
 
-type Hello2 struct {
+type Cheker struct {
 }

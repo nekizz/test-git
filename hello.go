@@ -15,12 +15,13 @@ type Malue struct {
 	reasom string
 	Okle   uint
 }
-type PakaMan struct {
+
+type Reasonsdf struct {
 	Haha bool
-	Hehe uint8
+	Hehe string
 }
 
 type Moluda struct {
 	Haha bool
-	Hehe uint8
+	Hehe interface{}
 }

@@ -7,20 +7,20 @@ type Cucke struct {
 }
 
 type Loasd struct {
-	Kiki string
+	qwe  string
 	Kaka string
 }
 
 type Malue struct {
 	reasom string
-	Okle   uint
+	qwe    uint
 }
 type PakaMan struct {
-	Haha bool
+	Haha int
 	Hehe uint8
 }
 
 type Moluda struct {
 	Haha bool
-	Hehe uint8
+	Hehe Loasd
 }

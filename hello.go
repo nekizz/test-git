@@ -26,12 +26,7 @@ type Moluda struct {
 	Hehe interface{}
 }
 
-type CuckuNe1 struct {
-	Hello string
-	Lo    uint
-}
-
-type CuckuNe2 struct {
+type MinhMinha struct {
 	Hello string
 	Lo    uint
 }

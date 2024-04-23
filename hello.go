@@ -30,3 +30,8 @@ type CuckuNe1 struct {
 	Hello string
 	Lo    uint
 }
+
+type CuckuNe2 struct {
+	Hello string
+	Lo    uint
+}

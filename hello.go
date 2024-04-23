@@ -25,3 +25,8 @@ type Moluda struct {
 	Haha bool
 	Hehe interface{}
 }
+
+type MinhMinha struct {
+	Hello string
+	Lo    uint
+}
